@@ -1,0 +1,85 @@
+body{
+   
+   overflow-y: scroll; /* Show vertical scrollbar */
+   overflow-x: hidden;
+ 
+}
+.banner{
+	width:110%;
+    height:300px;
+    position: sticky;
+    top: 85px;
+    background-color: #9e9e9e;
+  
+--webkit-background-size: cover;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center center;
+   z-index: 0;
+	
+}
+
+.wrapper{
+   width: 50%;
+   height:70%;
+   padding: 20px 100px;
+   background-color: #eeb935;
+   color: white;
+   display: block;
+   margin-left: 15%;
+   margin-right: 16%;
+
+}
+
+.logoimg {
+  width:13%;	
+  padding: 85px 5px;
+  display: block;
+}
+
+.wrapper h1{
+   font-size: 70px;
+   color: black;
+   margin-top: -193px;
+}
+
+.arlen-img{
+  width:40%;
+  display: block;
+  padding: 95px 430px;
+
+}
+
+.arlenshop h1{
+  font-size: 40px;
+  padding: 0px 430px;
+  margin-top:-90px;
+  margin-left: 4%;
+  margin-right: 10%;
+  font-family: 'Saira Condensed', sans-serif;
+   
+
+}
+
+.arlenshop p{
+  width: 800px;
+  font-size: 20px;
+  padding: 0px 430px;
+  margin-top:-0px;
+  margin-left: -4.2%;
+  margin-right: 20%;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.info li {
+  width: 800px;
+  font-size: 20px;
+  padding: 0px 430px;
+  text-align: left;
+   font-family: 'Saira Condensed', sans-serif;
+	
+	
+}
+
+
+

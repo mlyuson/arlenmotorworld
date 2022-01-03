@@ -1,0 +1,399 @@
+
+
+.productmain{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 6% 2%;
+}
+
+body h2{
+    background: #9acd32;
+    color: #fff;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 24px;
+    padding-top: 10px;
+    height: 40px;
+    justify-content: center;
+    margin-top: 20px;
+	position: absolute;
+}
+
+.productalign{
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.productalign:after{
+    clear:both;
+}
+
+.productalign:after, .product-box::before{
+    content:"";
+    display: table;
+}
+
+.productalign li{
+    width: 328px;
+    height: 328px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.product-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out,  -moz-transform 0.3s ease-in-out,;
+     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.product-box:hover{
+    transform: scale(1.05);
+}
+
+.product-img-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+	url('Products & Others/1 Crankshaft Oil Seal.jpg');
+   background-size: 100% 100%;
+   	
+}
+
+
+.product-img-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/2 Ignition Coil.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/3 MIO Flyball 1IG.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-4{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/4 MIO Spark Plug Cap.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-5{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/5 T Post Race BallBeat.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-6{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/6 Pulley With Bushing 13.5 Degree.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-7{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/7 Center Spring Mio 10000RPM.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-8{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/8 Center Spring 1500RPM Click.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-9{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/9 3 Way Switch wave110.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-10{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/10 T19-LED BULB.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-11{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/11 Air Filter Aerox Model.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-12{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/12 MIO Washable Air Filter.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-13{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/13 Washable Air Filter M3.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-14{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/14 Washable Air Filter Click125-150.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-15{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/15 Yamaha 2DP Air Filter.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-16{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/16 Yamaha Air Filter.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-17{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/17 Yamaha Rear Break Pad.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-18{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/18 MRC Throttle Cable.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-19{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/19 Honda Drive Tire.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-20{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/20 MOTOWOLF Bottles Holder.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-21{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/21 Yamaha Rectifier.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-22{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/22 YTX4L-BS Motorcycle Battery.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-23{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/23 PIAA Horn.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-24{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/24 Fanfare Horn BOSCH.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-25{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/25 55B Horn Seger.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-26{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/26 Castrol Actibond.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-27{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/27 Repsol Motor Oil.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-28{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/28 Motor Power Coolant.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-29{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/29 Carb Cleaner.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-30{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/30 Action Matic Motor Oil.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-31{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/31 REDSPEED Engine Degreaser.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-32{
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0)),
+    url('Products & Others/32 CNC Adjustable Tensioner V2 RED (Mio Sporty_Amore_Soulty_Mio Mxi) Racing Monkey.jpg');
+	background-size: 100% 100%;
+}
+
+.product-img-33{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/33 22mm motorcycle handlebar grips handlebar caps.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-1{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 1.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-2{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 2.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-3{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 3.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-4{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 4.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-5{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 5.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-6{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 6.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-7{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 7.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-8{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 8.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-9{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 9.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-10{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 10.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-11{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 11.jpg');
+	background-size: 100% 100%;
+}
+
+.service-img-12{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('Products & Others/service 12.jpg');
+	background-size: 100% 100%;
+}
+
+.services-img{
+	 width: 80%;
+    height: 0%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out,  -moz-transform 0.3s ease-in-out,;
+     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+	
+
+.product-info{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+}
+
+.product-info a{
+
+    text-decoration: none
+}
+.product-info h3{
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: bold;
+    font-weight: 550;
+    color: black;
+    font-size: 18px;
+    margin: 0, 30px;
+    padding: 342px 0 0 0;
+    line-height: 1.5;
+}
+
+.product-info p{
+	padding: 0 0 0 0;
+	font-weight: 400;
+	font-size: 20px;
+    font-family: 'Times New Roman', sans-serif;
+    color:black;
+	 line-height: 0px;
+
+}
+
+.productmain a{
+    margin-top: 20px;
+    margin-left: 600px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.foot-bottom p{ 
+   text-align: center;
+   margin-top:100px;
+   margin-left: -20%;
+   margin-right: 40%;
+   
+  
+
+}
+
+
+
+
+
+
